@@ -11,6 +11,7 @@ public class TestWebDriverManager {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://testautomationpractice.blogspot.com/");
+		
 
 	}
 
