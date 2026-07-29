@@ -3,6 +3,7 @@
 	<groupId>TestApril2026Batch</groupId>
 	<artifactId>TestApril2026Batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -28,7 +29,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-				<release>11</release>
+					<source>17</source>
+					<target>17</target>
 				</configuration>
 			</plugin>
 			<plugin>
